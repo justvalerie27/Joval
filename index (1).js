@@ -8,7 +8,7 @@ import { faker } from "@faker-js/faker";
 const Joval = () => {
   const [transactions, setTransactions] = useState([]);
   const [amount, setAmount] = useState("");
-  const [receiver, setReceiver] = useState("");
+  const [receiver, setSender] = useState("");
 
   const generateTransaction = () => {
     const newTransaction = {
